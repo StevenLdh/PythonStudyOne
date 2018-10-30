@@ -70,4 +70,43 @@ len(tuple)
 """
 Python 字典
 """
+dict = {}
+dict['one'] = "This is one"
+dict[2] = "This is two"
 
+tinydict = {'name': 'john', 'code': 6734, 'dept': 'sales'}
+
+print(dict['one'])  # 输出键为'one' 的值
+print(dict[2])  # 输出键为 2 的值
+print(tinydict)  # 输出完整的字典
+print(tinydict.keys())  # 输出所有键
+print(tinydict.values())  # 输出所有值
+
+# 增加一个或多个元素
+tinydict.update(b=2)  # 也可以 tinydict.update({‘b’: 2})
+print(tinydict)
+
+tinydict.update(c=3, d=4)
+print(tinydict)
+
+tinydict.update({'f': 6, 'g': 7})  # 即tinydict.update(字典)
+print(tinydict)
+
+#  删除一个或多个元素
+x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+x.pop(1)  # pop()，()里为需要删除的key值；即若x.pop(3)，则删除3:4元素。
+print(x)
+
+x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+del x[1]
+print(x)
+"""
+def remove_key(d, key):
+    r = dict(d)
+del r[key]
+return r
+
+x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+print(remove_key(x, 1))
+print(x)
+"""
