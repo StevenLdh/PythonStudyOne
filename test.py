@@ -68,6 +68,6 @@ print(tuple + tinytuple)  # 打印组合的元组
 len(tuple)
 
 """
-元组类型(元组中的元素值是不允许修改的，但我们可以对元组进行连接组合)
+Python 字典
 """
 
