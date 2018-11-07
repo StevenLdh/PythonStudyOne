@@ -16,3 +16,4 @@ print(random.random())
 print(random.uniform(1, 5))
 # 返回x的反余弦弧度值。
 print(math.acos(0.64))
+print('\a')

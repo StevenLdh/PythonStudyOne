@@ -1,0 +1,429 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1541143186000)
++++ .idea/workspace.xml	(date 1541388552244)
+@@ -2,8 +2,11 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="06588287-c21c-4b2b-b3b5-795e84f30c83" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/PythonFun.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/PythonString.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/PythonTime.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/OperatorCharacter.py" beforeDir="false" afterPath="$PROJECT_DIR$/OperatorCharacter.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/PythonNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonNumber.py" afterDir="false" />
+     </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+@@ -50,27 +53,28 @@
+       <usages-collector id="statistics.lifecycle.project">
+         <counts>
+           <entry key="project.open.time.0" value="1" />
+-          <entry key="project.opened" value="1" />
++          <entry key="project.open.time.4" value="2" />
++          <entry key="project.opened" value="3" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.extensions.edit">
+         <counts>
+-          <entry key="py" value="325" />
++          <entry key="py" value="627" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.types.edit">
+         <counts>
+-          <entry key="Python" value="325" />
++          <entry key="Python" value="627" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.extensions.open">
+         <counts>
+-          <entry key="py" value="4" />
++          <entry key="py" value="10" />
+         </counts>
+       </usages-collector>
+       <usages-collector id="statistics.file.types.open">
+         <counts>
+-          <entry key="Python" value="4" />
++          <entry key="Python" value="10" />
+         </counts>
+       </usages-collector>
+     </session>
+@@ -78,22 +82,10 @@
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+       <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/PythonNumber.py">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="323">
+-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+-              <folding>
+-                <element signature="e#63#75#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/OperatorCharacter.py">
++        <entry file="file://$PROJECT_DIR$/PythonFun.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state>
+-              <caret selection-end-line="2" />
++            <state relative-caret-position="342">
++              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+             </state>
+           </provider>
+         </entry>
+@@ -123,6 +115,9 @@
+         <option value="$PROJECT_DIR$/TypesOfVariables.py" />
+         <option value="$PROJECT_DIR$/OperatorCharacter.py" />
+         <option value="$PROJECT_DIR$/PythonNumber.py" />
++        <option value="$PROJECT_DIR$/PythonString.py" />
++        <option value="$PROJECT_DIR$/PythonTime.py" />
++        <option value="$PROJECT_DIR$/PythonFun.py" />
+       </list>
+     </option>
+   </component>
+@@ -138,23 +133,18 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
++      <pane id="Scope" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+             <path>
+               <item name="PythonStudyTwo" type="b2602c69:ProjectViewProjectNode" />
+               <item name="PythonStudyTwo" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="PythonStudyTwo" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="PythonStudyTwo" type="462c0819:PsiDirectoryNode" />
+-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+             </path>
+           </expand>
+           <select />
+         </subPane>
+       </pane>
+-      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -177,7 +167,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Python.PythonNumber">
++  <component name="RunManager" selected="Python.PythonFun">
+     <configuration name="OperatorCharacter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="untitled" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -199,6 +189,27 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <configuration name="PythonFun" type="PythonConfigurationType" factoryName="Python" temporary="true">
++      <module name="untitled" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonFun.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
+     <configuration name="PythonNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="untitled" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -220,7 +231,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="TypesOfVariables" type="PythonConfigurationType" factoryName="Python" temporary="true">
++    <configuration name="PythonString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="untitled" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -232,7 +243,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TypesOfVariables.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonString.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -241,7 +252,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
++    <configuration name="PythonTime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="untitled" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -253,7 +264,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTime.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -263,17 +274,19 @@
+       <method v="2" />
+     </configuration>
+     <list>
+-      <item itemvalue="Python.test" />
+-      <item itemvalue="Python.TypesOfVariables" />
+       <item itemvalue="Python.OperatorCharacter" />
+       <item itemvalue="Python.PythonNumber" />
++      <item itemvalue="Python.PythonString" />
++      <item itemvalue="Python.PythonTime" />
++      <item itemvalue="Python.PythonFun" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.PythonFun" />
++        <item itemvalue="Python.PythonTime" />
++        <item itemvalue="Python.PythonString" />
+         <item itemvalue="Python.PythonNumber" />
+         <item itemvalue="Python.OperatorCharacter" />
+-        <item itemvalue="Python.TypesOfVariables" />
+-        <item itemvalue="Python.test" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -300,15 +313,15 @@
+     </todo-panel>
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
++    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+     <editor active="true" />
+     <layout>
+-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
++      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info id="Favorites" order="2" side_tool="true" />
+       <window_info anchor="bottom" id="Message" order="0" />
+       <window_info anchor="bottom" id="Find" order="1" />
+-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
++      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+@@ -317,11 +330,11 @@
+       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
+-      <window_info anchor="right" id="R Packages" />
+-      <window_info anchor="right" id="R Graphics" />
+       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
++      <window_info anchor="right" id="R Graphics" order="3" />
++      <window_info anchor="right" id="R Packages" order="4" />
+     </layout>
+   </component>
+   <component name="VcsContentAnnotationSettings">
+@@ -335,34 +348,52 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/test.py">
++    <entry file="file://$PROJECT_DIR$/test.py" />
++    <entry file="file://$PROJECT_DIR$/TypesOfVariables.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="271">
+-          <caret line="18" column="7" lean-forward="true" selection-end-line="111" selection-end-column="3" />
++        <state>
++          <caret selection-end-line="2" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/TypesOfVariables.py">
++    <entry file="file://$PROJECT_DIR$/OperatorCharacter.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state>
+           <caret selection-end-line="2" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/OperatorCharacter.py">
++    <entry file="file://$PROJECT_DIR$/PythonTime.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="494">
++          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
++          <folding>
++            <element signature="e#53#64#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/PythonString.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state>
+-          <caret selection-end-line="2" />
++          <caret selection-end-line="1" selection-end-column="23" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/PythonNumber.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="323">
+-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
++        <state>
++          <caret selection-end-line="1" selection-end-column="23" />
+           <folding>
+             <element signature="e#63#75#0" expanded="true" />
+           </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/PythonFun.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="342">
++          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+         </state>
+       </provider>
+     </entry>
+Index: PythonTime.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- PythonTime.py	(date 1541386412730)
++++ PythonTime.py	(date 1541386412730)
+@@ -0,0 +1,27 @@
++#!/usr/bin/python
++# -*- coding: UTF-8 -*-
++# 引入time模块
++import time
++import calendar
++ticks = time.time()
++print("当前时间戳为:", ticks)
++# 获取当前时间
++localtime = time.localtime(time.time())
++print("本地时间为 :", localtime)
++# 获取格式化的时间
++localtime = time.asctime(time.localtime(time.time()))
++print("本地时间为 :", localtime)
++# 格式化日期
++# 格式化成2016-03-20 11:45:39形式
++print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
++# 格式化成Sat Mar 28 22:24:24 2016形式
++print(time.strftime("%a %b %d %H:%M:%S %Y", time.localtime()))
++# 将格式字符串转换为时间戳
++a = "Sat Mar 28 22:24:24 2016"
++print(time.mktime(time.strptime(a, "%a %b %d %H:%M:%S %Y")))
++# 推迟调用线程的运行，secs指秒数
++time.sleep(3)
++# 获取某月日历
++cal = calendar.month(2018, 1)
++print("以下输出2016年1月份的日历:")
++print(cal) 
+\ No newline at end of file
+Index: PythonString.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- PythonString.py	(date 1541385084904)
++++ PythonString.py	(date 1541385084904)
+@@ -0,0 +1,35 @@
++#!/usr/bin/python
++# -*- coding: UTF-8 -*-
++import  string
++"""
++Python 字符串格式化
++"""
++# 格式化字符串
++print("My name is %s and weight is %d kg!" % ('Steven', 27))
++
++# python的字符串内建函数
++strs = "this a Python Project!"
++print(strs.capitalize())
++
++# 字符串join()的使用方法
++str = "-"
++seq = ("a", "b", "c")
++print(str.join(seq))
++list=['1','2','3','4','5']
++print(''.join(list))
++print(strs.lower())
++print(max(strs))
++print(min(strs))
++
++# Python format 格式化函数
++print("网站名：{name}, 地址 {url}".format(name="菜鸟教程", url="www.runoob.com"))
++
++# 通过字典设置参数
++site = {"name": "菜鸟教程", "url": "www.runoob.com"}
++print("网站名：{name}, 地址 {url}".format(**site))
++
++# 通过列表索引设置参数
++my_list = ['菜鸟教程', 'www.runoob.com']
++print("网站名：{0[0]}, 地址 {0[1]}".format(my_list))  # "0" 是必须的
++
++
+Index: PythonNumber.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- PythonNumber.py	(date 1541143186000)
++++ PythonNumber.py	(date 1541380869205)
+@@ -15,4 +15,5 @@
+ # 随机生成下一个实数，它在[x,y]范围内。
+ print(random.uniform(1, 5))
+ # 返回x的反余弦弧度值。
+-print(math.acos(0.64))
+\ No newline at end of file
++print(math.acos(0.64))
++print('\a')
+\ No newline at end of file
+Index: PythonFun.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- PythonFun.py	(date 1541388224201)
++++ PythonFun.py	(date 1541388224201)
+@@ -0,0 +1,19 @@
++#!/usr/bin/python
++# -*- coding: UTF-8 -*-
++
++# 可写函数说明
++def printinfo(arg1, *vartuple):
++    # "打印任何传入的参数"
++    print("输出: ")
++    print(arg1)
++    for var in vartuple:
++        print(var)
++    return
++#  调用printinfo 函数
++printinfo(10)
++printinfo(70, 60, 50)
++
++# 匿名函数
++sum=lambda arg1,arg2:arg1+arg2
++print("相加后的值为 :",sum(10,20))
++print("相加后的值为 :",sum(20,20))
+\ No newline at end of file
