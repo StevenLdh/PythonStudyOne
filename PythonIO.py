@@ -34,7 +34,13 @@ os.rename("D:/test.txt", "D:/tests.txt")
 # 删除指定的文件
 os.remove("D:/tests.txt")
 """
+"""
+# 创建指定目录
 os.mkdir("D:/text.txt")
+"""
+# 获取当前目录
+print(os.getcwd())
+
 
 
 
