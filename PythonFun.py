@@ -29,3 +29,8 @@ def sum(arg1, arg2):
 # 调用sum函数
 sum(10, 20);
 print("函数外是全局变量 : ", total)
+
+import  math
+content = dir(math)
+print(content)
+
