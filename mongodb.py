@@ -69,5 +69,34 @@ for item in mycol.find({"$or": [{"alexa":"100"},{"name":"Taobao"}]}):
     print(item)
 '''
 
+# 查询  $type 操作符
+'''
+for item in mycol.find({"title":{"$type":2}}):
+    print(item)
+'''
+# 查询 limit skip
+'''
+for item in mycol.find().limit(2).skip(15):
+    print(item)
+'''
+# aggregate() 方法
+'''
+for item in mycol.find({"alexa":{"$gt":"100"}}):
+    print(item)
+'''
 
-
+# 聚合查询
+'''
+rules = [
+    {"$match":{"likes":{"$gte":102,"$lte":109}}},
+    {"$group":{ "_id": "$name", "count":{ "$sum": 1}}}
+]
+for item in mycol.aggregate(rules):
+    print(item)
+'''
+# 数据库引用
+'''
+var relust=db.myaddress.findOne();
+var user=relust.address;
+db[user.$ref].findOne({"_id":user.$id});
+'''
