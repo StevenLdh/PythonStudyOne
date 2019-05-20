@@ -74,6 +74,7 @@ for item in mycol.find({"$or": [{"alexa":"100"},{"name":"Taobao"}]}):
 for item in mycol.find({"title":{"$type":2}}):
     print(item)
 '''
+
 # 查询 limit skip
 '''
 for item in mycol.find().limit(2).skip(15):
